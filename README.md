@@ -33,3 +33,12 @@ https://cloud-task-app.onrender.com/tasks
 ### Create a New Task
 ```bash
 curl -X POST [https://cloud-task-app.onrender.com/tasks](https://cloud-task-app.onrender.com/tasks) -H "Content-Type: application/json" -d '{"title": "Buy milk"}'
+
+
+[ User ] ---> [ Flask App ] ---> [ SQLite Database ] ---> [ Render Cloud ]
+
+
+
+
+
+
